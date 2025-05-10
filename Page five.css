@@ -8,7 +8,7 @@ body {
 
 header {
     Background-image: linear-gradient(270deg, #23464d 30%, #6fffe9 70%);
-    padding: 1rem 2rem;
+    padding: 0rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +17,7 @@ header {
 
 nav {
     display: flex;
-    gap: 2.5rem;
+    gap: 3rem;
 }
 
 nav a {
@@ -38,18 +38,21 @@ nav a:hover {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex: 1;
+    justify-content: center;
+    gap: 4rem;
+}
 
+.navbar a {
+    text-decoration: none;
+    color: rgb(11, 2, 2);
+    font-weight: bold;
 }
 
 .profile-section {
     display: flex;
-    flex: 1;
-    flex-direction: column;
     align-items: center;
-    gap: 5px;
-    margin-top: 5px;
+    gap: 0.5rem;
 }
 
 .profile-pic {
@@ -62,21 +65,6 @@ nav a:hover {
     color: rgb(15, 9, 9);
     font-weight: 500;
     font-size: 14px;
-}
-
-.nav-links {
-    display: flex;
-    flex: 2;
-    flex: 6;
-    gap: 30px;
-}
-
-.navlinks a {
-    text-decoration: none;
-    color: rgb(7, 7, 7);
-    font-weight: 500;
-    padding: 8px 12px;
-
 }
 
 .profile-section {
@@ -108,7 +96,7 @@ nav a:hover {
 }
 
 .wrap {
-    max-height: 61vh;
+    max-height: 62vh;
 }
 
 main {
@@ -121,7 +109,7 @@ main {
 h1 {
     font-size: 3rem;
     margin-bottom: 2rem;
-    color: #9cffde;
+    color: white;
 }
 
 .button-container {
